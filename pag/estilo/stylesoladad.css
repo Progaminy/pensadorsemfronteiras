@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 :root {
     --cor0:#c267a0;
     --cor1:#a92a71;
@@ -9,6 +11,7 @@
     --cor5:#320d38;
     --cor6:#22071c;
 
+    --font2: 'Passion One', cursive;
     --fonte-padrao: Arial, Verdana, Helvetica sans-serif;
 
     --font-sec: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -17,6 +20,7 @@
 body {
     background-image: linear-gradient(to bottom, var(--cor6), var(--cor1));
     background-attachment: fixed;background-attachment: fixed;
+    font-family: var(--font2);
 }
 header {
     box-shadow:2px 2px 2px black;
@@ -79,7 +83,7 @@ main p {
     color: black;
     display: inline-block;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.501);
-    font-size: 3vw;
+    font-size: 14px;
     border-radius: 5px;
     padding: 2px;
 }
@@ -118,4 +122,25 @@ section#m6 {
 }
 section#m7 {
     background-image: url('../../imagens/livro2.jpg');
+}
+section#m8 {
+    background-image: url('../../imagens/f1.jpg');
+}
+section#m9 {
+    background-image: url('../../imagens/r2.jpg');
+}
+section#m10 {
+    background-image: url('../../imagens/f2.jpg');
+}
+section#m11 {
+    background-image: url('../../imagens/cao1.jpg');
+}
+section#m12 {
+    background-image: url('../../imagens/r4.jpg');
+}
+section#m13 {
+    background-image: url(../../imagens/r5.jpg);
+}
+section#m14 {
+    background-image: url(../../imagens/s1.jpg);
 }

@@ -60,7 +60,8 @@ a:hover {
 h2 {
     color: white;
     text-shadow: 2px 2px 2px black;
-    font-size: 6vw;
+    font-size: 20px;
+    text-align: center;
 }
 
 main {
@@ -76,7 +77,7 @@ main {
 main h3 {
     color: white;
     text-shadow: 2px 2px 2px black;
-    font-size: 6.2vw;
+    font-size: 18px;
 }
 main p {
     background-color: rgba(255, 255, 255, 0.411);
@@ -86,6 +87,7 @@ main p {
     font-size: 14px;
     border-radius: 5px;
     padding: 2px;
+    font-family: var(--font2);
 }
 section.img {
     box-shadow: inset 5px 3px 3px rgba(0, 0, 0, 0.59);
